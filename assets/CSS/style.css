@@ -1,0 +1,358 @@
+/* * */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #808080;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d4d4d4;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #939393;
+    border-radius: 8px;
+    border: 3px solid #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7c;
+}
+
+/* FIRST CONTAINER */
+
+.first__container h1 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease-in-out 0s;
+    transition-delay: 0.3s;
+}
+
+.first__container a {
+    font-family: 'Open Sans', 'sans-serif';
+    color: wheat;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2px 4px;
+    background-color: #2c11d9;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.4s ease-in-out 0s;
+}
+
+.first__container a:hover {
+    background-color: wheat;
+    color: #2c11d9;
+}
+
+
+.first__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first__text__container {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* SECOND CONTAINER */
+
+#ZarazaAteny {
+    color: wheat;
+    max-width: 800px;
+    margin-bottom: -10px;
+}
+
+.second__container__images img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.second__container__images {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+}
+
+.second__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second__container__death {
+    color: red;
+}
+
+/* THIRD CONTAINER */
+
+#PestisAntonini {
+    max-width: 800px;
+    color: wheat;
+
+}
+
+.third__image__container img {
+    max-width: 500px;
+
+}
+
+.third__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third__image__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* FOURTH CONTAINER */
+.fourth__image__container img {
+    max-width: 470px;
+    width: 100%;
+}
+
+.fourth__image__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth__text__container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    color: wheat;
+}
+
+.fourth__container__death {
+    text-align: center;
+    color: red;
+}
+
+/* FIFTH CONTAINER */
+.fifth__image__container img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.fifth__text__container {
+    max-width: 950px;
+    width: 100%;
+}
+
+.fifth__image__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fifth__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+}
+
+.fifth__container__death {
+    color: red;
+    text-align: center;
+}
+
+/* SIXTH CONTAINER */
+.sixth__image__container img {
+    max-width: 470px;
+    width: 100%;
+}
+
+.sixth__image__container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sixth__text__container {
+    color: wheat;
+    max-width: 900px;
+}
+
+.sixth__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sixth__container__death {
+    text-align: center;
+    color: red;
+}
+
+/* SEVENTH CONTAINER */
+.seventh__image__container img {
+    max-width: 450px;
+
+}
+
+.seventh__image__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seventh__text__container {
+    max-width: 900px;
+
+}
+
+.seventh__container {
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EIGHT CONTAINER */
+.eighth__image__container img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.eighth__image__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.eighth__text__container {
+    max-width: 800px;
+    color: wheat;
+}
+
+.eighth__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ninth container */
+.ninth__image__container img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.ninth__image__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ninth__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ninth__text__container {
+    max-width: 800px;
+    width: 100%;
+    color: wheat;
+}
+
+/* TENTH CONTAINER */
+.tenth__image__container img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.tenth__image__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tenth__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tenth__text__container {
+    max-width: 1000px;
+    width: 100%;
+    color: wheat;
+}
+
+/* ANIMATION */
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+
+p {
+    opacity: 0;
+    transition: 0.8s ease-in-out 0s;
+    transition-delay: 0.3s;
+}
+
+img {
+    transform: translate(0, 20%);
+    opacity: 0;
+    transition: 0.8s ease-in-out 0s;
+    transition-delay: 0.3s;
+}
+
+/* LAST PART */
+.last__part {
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.8s ease-in-out 0s;
+    transition-delay: 0.5s;
+    text-shadow:
+        0 0 10px #FFF,
+        0 0 20px #FFF,
+        0 0 30px #FFF,
+        0 0 40px #090,
+        0 0 70px #090,
+        0 0 80px #090,
+        0 0 100px #090,
+        0 0 150px #090;
+}
